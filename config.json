@@ -1,0 +1,11 @@
+{
+  "locals": {
+    "name": "Ivy Development",
+    "title": "Ivy Development",
+    "owner": "Ivy Dev Team",
+    "description": "let your mind grow"
+  },
+  "plugins": [
+    "wintersmith-livereload"
+  ]
+}

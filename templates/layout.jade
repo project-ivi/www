@@ -1,0 +1,25 @@
+include header
+include nav
+include footer
+
+doctype html
+block vars
+  - var bodyclass = null;
+html(lang='en')
+  head
+    block head
+      +header
+  body(class=bodyclass)
+    .content-wrap
+      +nav
+      header.header
+        div.content-wrap
+          block header
+            div.logo
+              h1
+                a.accent(href=locals.url)= locals.name
+              p.description= locals.description
+
+
+    block footer
+      +footer
