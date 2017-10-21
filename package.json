@@ -13,7 +13,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pug": "^2.0.0-rc.4"
+    "pug": "^2.0.0-rc.4",
+    "wintersmith-jade": "^0.1.0"
   },
   "devDependencies": {
     "wintersmith-livereload": "^1.0.0"
