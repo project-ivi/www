@@ -3,7 +3,17 @@
     "name": "Ivy Development",
     "title": "Ivy Development",
     "owner": "Ivy Dev Team",
-    "description": "let your mind grow"
+    "description": "let your mind grow",
+    "nav" : [
+      {
+        "name": "Ivy",
+        "url": "/"
+      },
+      {
+        "name": "About",
+        "url": "/about"
+      }
+    ]
   },
   "plugins": [
     "wintersmith-livereload"

@@ -1,4 +1,16 @@
 extends layout
 
-block append body
-  
+block contents
+  header.header
+    div.content-wrap
+      div.logo
+        h1 
+          a.accent(href=locals.url)= locals.name
+        p.description= locals.description
+
+      section.content
+        p Ivy Development is an education research group. Our current project, IVI, aims to visualize code to help novice programmers better understand how code works.
+        center.nav-bar
+          a.accent(href="/about") About IVI | 
+          a.accent(href="https://github.com/project-ivi/ivi/issues/new") Report Bug  
+          a.accent(href="https://goo.gl/forms/1FNgFSBIpU7w5Eq63") | Give Feedack
