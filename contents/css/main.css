@@ -167,6 +167,13 @@ footer .about {
   column-gap: 2em;
 }
 
+.footer {
+  color: grey;
+  text-decoration: none;
+  font-style: italic;
+  font-size: 10px;
+}
+
 /* media queries */
 
 @media (min-width: 1600px) {
