@@ -17,6 +17,7 @@
     "wintersmith-jade": "^0.1.0"
   },
   "devDependencies": {
+    "wintersmith": "^2.4.1",
     "wintersmith-livereload": "^1.0.0"
   }
 }
