@@ -5,7 +5,7 @@ env:
   global:
   - USER="project-ivi"
   - EMAIL="gjbunyea@buffalo.edu"
-  - REPO="test"
+  - REPO="project-ivi.github.io"
   - FILES="build/."
   - GH_REPO="github.com/${USER}/${REPO}.git"
   - secure: oJBzPqUPTlRjorShPIQDGn1gPHFhzY/Q0MRODp1RLOsEjWIL3q5Iym5V62DbCzInssNQoJ9XK0glA/MheKd/VjKjIvDCjl4OC8DmuwRnwYeC6/vxDfPFzPhKmy0wU2kFLJ12lJnKVzoP5E/BO3LwOMCFwBTJcYhvtnr3hsIwGAR/PJ7A3xJy8CW1Tpg+nYWN/TT8qckXrGP+Keua29/oWV+q8hlt74oRuRV59KEEIqFJX1cVUoqBLZSnw+LizPAnU463DgdsRIixBRPwAOb02nTnF6crbZJ8PdmwG9bL4k4QNotOt80OqKyiskNxMoCf/uaoJF0YTZ+DykydBbfih0mrzLsN2MOfGkzSjOuq+fB9j/oyjonQVa5VQD+LTiTAnk/zfdnez00zT8vda4WW7EiAltRt3+TBz3rbxFKzLZSVkms8pGirKK5awbbaOWwTq2R24j4TxZkHaPrSBOWXLFpLoEGWetFDjihzOWpLftXcWsWdZRZmUN8Xuig1iL+ecdqxGxAaUDBT7VvQgI9Rv5o5PHHyOGJKnGa5/fpqs2Kw+0qur/GMwuCom35sC6Aml1Ymb2aeV3c3CjLmvTse41nevvUiuLPOV6GVRLiB/s5dBjWXhFJ5BTPZZ/aGnicaWIQiP4Hro6BKifpHgcNpwdymO/6TDivKYgJ0+YH1Hcw=
