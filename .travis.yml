@@ -17,4 +17,4 @@ cache:
   directories:
   - node_modules
 script: wintersmith build
-after_success: deploy.sh
+after_success: sh deploy.sh
