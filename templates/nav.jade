@@ -2,14 +2,9 @@ mixin nav
   nav.navbar.navbar-inverse                                                   
     .container-fluid                                                          
       .navbar-header                                                          
-        a.navbar-brand(href="#") Ivy                                          
+        a.navbar-brand(href="/") Ivy                                          
       ul.nav                                                                  
-          li: a.disabled(href="about.html") About                                      
-          li: a(href="https://project-ivi.github.io/ivi") IVI                 
-          li.dropdown.disabled                                                        
-            a.disabled( href="#", data-toggle="dropdown", role="button", aria-expanded="false" ) Blogs
-              span.caret                                                      
-            ul.dropdown-menu                                                  
-              li Dev                                                          
-              li Heeba                                                        
-              li Katie
+          li: a(href="/about") About
+          li: a(href="/ivi") IVI
+          li: a(href="https://github.com/project-ivi/ivi/issues/new") Bugs
+          li: a(href="https://goo.gl/forms/KMHi3KdxeJcfupfG2") Feedback
