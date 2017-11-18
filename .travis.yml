@@ -1,0 +1,23 @@
+language: node_js
+node_js:
+  - 8
+
+before_install: npm i -g npm@latest
+install:
+  - npm install
+  - npm install -g wintersmith
+
+cache:
+  directories:
+    - node_modules
+
+script: wintersmith build
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: build/
+  repo: project-ivi.github.io
+  github_token: $GH_TOKEN
+  on:
+    branch: master
