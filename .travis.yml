@@ -17,8 +17,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   local_dir: build/
-  project_name: project-ivi
-  repo: project-ivi.github.io
+  repo: project-ivi/project-ivi.github.io
   target_branch: master
   github_token: $GH_TOKEN
   on:
