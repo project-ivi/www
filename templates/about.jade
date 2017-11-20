@@ -15,9 +15,65 @@ block contents
       h2 How To Use
 
       p IVI is a JavaScript interpreter that runs in-browser. You can write JavaScript code in the editor on the left and see the state of the program at each step on the right. To launch IVI, you can click to "IVI" link on the top navigation or click here to open the IVI interpreter.
+      
+      h2 Features
+      p Code input must be Javascript
+      h3 Supported
+      p Currently IVI is basic but is quickly expanding
+      p We support the types:
+      ul 
+        li Number
+        li String
+        li Boolean
+        li undefined
+        li NaN
 
-      h2 Developer Notes
+      p We support:
+      ul
+        li Chained statements ex: `a=b=c=4;`, `console.log(console.log(console.log('test')));`
+        li Variable declaration
+        li Variable Assignment
+        li Assigning to other variable's values
+        li Printing to console
+        li Comments in Code
+        li Addition
+        li Subtraction
+        li Multiplication
+        li Division
+        li Modulo
+        li Scoping through plain braces
+        li Multiline statements
+        li Conditional statements (ex: if, else if, else) as well as nesting statements
+        li Simple comparators (ex: < and >)
+        
+      h3 Unsupported
+      ul
+        li Using `NaN` or `unsupported` as variable names.
+        li Order of operations, the program will recurse to the end of the line then pass values up backwards
+        li Some console log edge cases ex: `console.log(1 + 2 + 'hello');` will log 12hello because we promote everything to a string first since we are passing values up from the end
+        li Adding with negative number, we allow subtraction but adding negative numbers not supported
+        li Looping
+        li Comparators such as `&& || >= <= == ===` any comparator more than one charactor is not supported
+        li Multi - character arithmetic operations `+= *=`
+        li Bit Shifting
+        li Functions
+        li Everything else not listed in 'Supported'
 
-      p A list of unsupported features and additional developer notes can be found here. Please visit the page to check if the feature in question is unsupported before filing for an issue. These unsupported features are under our radar and we are looking to implement these in the future!
+      h3 Notes:
+      p In order to use conditionals you must make a variable that holds a boolean value.  You can have your conditional statement set to the variable and then that variable ONLY will be put in the parenthesis for the conditional.
+      p For example:
+      code 
+        p var a = 5 < 3;
+        p var b = 6 > 7;
+        p var c = false;
+        p if (a) {
+        p } else if (b) {
+        p } else if (c) {
+        p } else {
+        p }
+      
+      p Order of operations is not yet supported.  Evaluation will happen right to left which makes some complex math operations unsupported.
+      p Syntax errors will output to console, unsupported features will also print to console with line numbers and text that caused them
+      p Statements Must End in Semi-Colons or Unpredictable Behavior will happen
 
 block footer
